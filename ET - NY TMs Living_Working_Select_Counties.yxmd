@@ -1,0 +1,1052 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Initial File:
+
+COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original - Copy.xlsx
+Query=`Sheet1$`</AnnotationText>
+          <DefaultAnnotationText>COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Teammate ID" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Legal Name - First Name" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Legal Name - Last Name" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Job Category - ID" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Job Category" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Job Title" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Job Code" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Cost Center - ID" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Cost Center - Name" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Worker's Modality - ID" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Time Type" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Exempt" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Teammate Type" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Email - Primary Work" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Original Hire Date" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="Last Start Date" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="Worker Type" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Location - ID" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Location - Name" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Primary Work Address" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Primary Work Address City" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Primary Work State" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Primary Postal" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Local County Withholding (Work) - County" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="On Leave" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Worker's Parent Group" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Worker's Parent Division" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DaVita Region - Name" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Worker's Manager" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DaVita Manager ID" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DaVita Manager First Name" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DaVita Manager Last Name" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DaVita Manager Email" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Primary Home Address - Line 1" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Primary Home Address - Line 2" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Primary Home Address - City" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Primary Home Address - State" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Primary Home Address - Postal Code" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Local County Withholding (Resident) - County" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Hourly Rate - Amount" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="AA CF PTO Balance MINUS PTO Taken in Current Period" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\COVID_ City Ordinance Teammate Listing 2021-02-01 08_59 MST Original.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>This file contains all United States zip codes and their city based on the USPS 
+
+Zip-County-VSA-MSA-Divisions_01182021.xlsx
+Query=`Zip_County_VSA_MSA_Division...</AnnotationText>
+          <DefaultAnnotationText>Zip-County-VSA-MSA-Divisions_01182021.xlsx
+Query=`Zip_County_VSA_MSA_Division...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ZipCode" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="State" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="ZipBoundary" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="City" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="County_FIPS" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="County" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="CBSA_Fips" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="CBSA_Name" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="Type" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="CBSA_Fips_DivisionParent" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="CBSA_DivisionParent" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="CSA_CODE" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="CSA_Title" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="SmPalmer_Group" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="Palmer_Group" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="DVP_ Division" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="VSA_IDtxt" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="ServiceArea" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="SF_VSAID" size="255" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="V_String" />
+            <Field name="Longitude" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="Double" />
+            <Field name="Latitude" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="Double" />
+            <Field name="CensusBureauLongitude" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="Double" />
+            <Field name="CensusBureauLatitude" source="File: I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\Zip-County-VSA-MSA-Divisions_01182021.xlsx|||`Zip_County_VSA_MSA_Divisions$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Teammate ID" selected="True" />
+            <SelectField field="Legal Name - First Name" selected="True" />
+            <SelectField field="Legal Name - Last Name" selected="True" />
+            <SelectField field="Job Category - ID" selected="True" />
+            <SelectField field="Job Category" selected="True" />
+            <SelectField field="Job Title" selected="True" />
+            <SelectField field="Job Code" selected="True" />
+            <SelectField field="Cost Center - ID" selected="True" />
+            <SelectField field="Cost Center - Name" selected="True" />
+            <SelectField field="Worker's Modality - ID" selected="True" />
+            <SelectField field="Time Type" selected="True" />
+            <SelectField field="Exempt" selected="True" />
+            <SelectField field="Teammate Type" selected="True" />
+            <SelectField field="Email - Primary Work" selected="True" />
+            <SelectField field="Original Hire Date" selected="True" />
+            <SelectField field="Last Start Date" selected="True" />
+            <SelectField field="Worker Type" selected="True" />
+            <SelectField field="Location - ID" selected="True" />
+            <SelectField field="Location - Name" selected="True" />
+            <SelectField field="Primary Work Address" selected="True" />
+            <SelectField field="Primary Work Address City" selected="True" />
+            <SelectField field="Primary Work State" selected="True" />
+            <SelectField field="Primary Postal" selected="True" />
+            <SelectField field="Work County Based on Zip " selected="True" />
+            <SelectField field="Local County Withholding (Work) - County" selected="True" />
+            <SelectField field="On Leave" selected="True" />
+            <SelectField field="Worker's Parent Group" selected="True" />
+            <SelectField field="Worker's Parent Division" selected="True" />
+            <SelectField field="DaVita Region - Name" selected="True" />
+            <SelectField field="Worker's Manager" selected="True" />
+            <SelectField field="DaVita Manager ID" selected="True" />
+            <SelectField field="DaVita Manager First Name" selected="True" />
+            <SelectField field="DaVita Manager Last Name" selected="True" />
+            <SelectField field="DaVita Manager Email" selected="True" />
+            <SelectField field="Primary Home Address - Line 1" selected="True" />
+            <SelectField field="Primary Home Address - Line 2" selected="True" />
+            <SelectField field="Primary Home Address - City" selected="True" />
+            <SelectField field="Correct Home City Based on Zip" selected="True" />
+            <SelectField field="Primary Home Address - State" selected="True" />
+            <SelectField field="Primary Home Address - Postal Code" selected="True" />
+            <SelectField field="Home County" selected="True" />
+            <SelectField field="Local County Withholding (Resident) - County" selected="True" />
+            <SelectField field="Hourly Rate - Amount" selected="True" />
+            <SelectField field="AA CF PTO Balance MINUS PTO Taken in Current Period" selected="True" />
+            <SelectField field="Live/Work in Specified County" selected="True" />
+            <SelectField field="Live/Work in NYC" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Selects all columns from the initial file</AnnotationText>
+          <DefaultAnnotationText>Selects all columns from the initial file</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="594" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Substring([Primary Postal],0,5)" field="Primary Postal" size="255" type="V_String" />
+            <FormulaField expression="Substring([Primary Home Address - Postal Code],0,5)" field="Primary Home Address - Postal Code" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Takes only the first 5 digits of both the Primary(Work) postal code and the Home postal code
+
+
+Primary Postal = Substring([Primary Postal],0,5)
+Primary Home Address - Postal C...</AnnotationText>
+          <DefaultAnnotationText>Primary Postal = Substring([Primary Postal],0,5)
+Primary Home Address - Postal C...</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="174" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Null()" field="Work County Based on Zip " size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Correct Home City Based on Zip" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Home County" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Live/Work in Specified County" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Live/Work in NYC" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Creates new columns filled with blank values that will be filled during the process
+
+Work County Based on Zip  = Null()
+Correct Home City Based on Zip = Null()
+Home ...</AnnotationText>
+          <DefaultAnnotationText>Work County Based on Zip  = Null()
+Correct Home City Based on Zip = Null()
+Home ...</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="258" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ZipCode" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Selects only the City, County, Zip and State from the main file as these are the only columns needed for this process</AnnotationText>
+          <DefaultAnnotationText>Selects only the City, County, Zip</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="714" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Primary Postal" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ZipCode" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Joins the initial file and the zip code file on Primary (Work) Postal Code ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Joins the initial file and the zip code file on Primary (Work) Postal Code ]]></DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="846" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[County]" field="Work County Based on Zip " size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Looks up and fills the Work County based on the zip code column from the zip code file
+
+Work County Based on Zip  = [County]
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Work County Based on Zip  = [County]
+]]></DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="630" y="66" width="192" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Requested Information:
+
+Counties      ::       City
+
+Dutchess               New York
+Rockland
+Putnam
+Westchester</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="702" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Primary Home Address - Postal Code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ZipCode" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Joins the initial file and the zip code file on the Home postal code</AnnotationText>
+          <DefaultAnnotationText>Joins the initial file and the zip code file on the Home postal code</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="846" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[County]" field="Home County" size="1073741823" type="V_WString" />
+            <FormulaField expression="[City]" field="Correct Home City Based on Zip" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Looks up and fills the Home County column from the zip code file
+Looks up and fills the Correct Home City column based on the zip code file
+
+
+Home County = [County]
+Correct Home City Based on Zip = [City]
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Home County = [County]
+Correct Home City Based on Zip = [City]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="918" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Teammate ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Teammate ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Teammate ID" selected="True" input="Left_" />
+                <SelectField field="Left_Legal Name - First Name" selected="True" input="Left_" />
+                <SelectField field="Left_Legal Name - Last Name" selected="True" input="Left_" />
+                <SelectField field="Left_Job Category - ID" selected="True" input="Left_" />
+                <SelectField field="Left_Job Category" selected="True" input="Left_" />
+                <SelectField field="Left_Job Title" selected="True" input="Left_" />
+                <SelectField field="Left_Job Code" selected="True" input="Left_" />
+                <SelectField field="Left_Cost Center - ID" selected="True" input="Left_" />
+                <SelectField field="Left_Cost Center - Name" selected="True" input="Left_" />
+                <SelectField field="Left_Worker's Modality - ID" selected="True" input="Left_" />
+                <SelectField field="Left_Time Type" selected="True" input="Left_" />
+                <SelectField field="Left_Exempt" selected="True" input="Left_" />
+                <SelectField field="Left_Teammate Type" selected="True" input="Left_" />
+                <SelectField field="Left_Email - Primary Work" selected="True" input="Left_" />
+                <SelectField field="Left_Original Hire Date" selected="True" input="Left_" />
+                <SelectField field="Left_Last Start Date" selected="True" input="Left_" />
+                <SelectField field="Left_Worker Type" selected="True" input="Left_" />
+                <SelectField field="Left_Location - ID" selected="True" input="Left_" />
+                <SelectField field="Left_Location - Name" selected="True" input="Left_" />
+                <SelectField field="Left_Primary Work Address" selected="True" input="Left_" />
+                <SelectField field="Left_Primary Work Address City" selected="True" input="Left_" />
+                <SelectField field="Left_Primary Work State" selected="True" input="Left_" />
+                <SelectField field="Left_Primary Postal" selected="True" input="Left_" />
+                <SelectField field="Left_Work County Based on Zip " selected="True" input="Left_" />
+                <SelectField field="Left_Local County Withholding (Work) - County" selected="True" input="Left_" />
+                <SelectField field="Left_On Leave" selected="True" input="Left_" />
+                <SelectField field="Left_Worker's Parent Group" selected="True" input="Left_" />
+                <SelectField field="Left_Worker's Parent Division" selected="True" input="Left_" />
+                <SelectField field="Left_DaVita Region - Name" selected="True" input="Left_" />
+                <SelectField field="Left_Worker's Manager" selected="True" input="Left_" />
+                <SelectField field="Left_DaVita Manager ID" selected="True" input="Left_" />
+                <SelectField field="Left_DaVita Manager First Name" selected="True" input="Left_" />
+                <SelectField field="Left_DaVita Manager Last Name" selected="True" input="Left_" />
+                <SelectField field="Left_DaVita Manager Email" selected="True" input="Left_" />
+                <SelectField field="Left_Primary Home Address - Line 1" selected="True" input="Left_" />
+                <SelectField field="Left_Primary Home Address - Line 2" selected="True" input="Left_" />
+                <SelectField field="Left_Primary Home Address - City" selected="True" input="Left_" />
+                <SelectField field="Left_Correct Home City Based on Zip" selected="False" input="Left_" />
+                <SelectField field="Right_Correct Home City Based on Zip" selected="True" input="Right_" />
+                <SelectField field="Left_Primary Home Address - State" selected="True" input="Left_" />
+                <SelectField field="Left_Primary Home Address - Postal Code" selected="True" input="Left_" />
+                <SelectField field="Left_Home County" selected="False" input="Left_" />
+                <SelectField field="Right_Home County" selected="True" input="Right_" />
+                <SelectField field="Left_Local County Withholding (Resident) - County" selected="True" input="Left_" />
+                <SelectField field="Left_Hourly Rate - Amount" selected="True" input="Left_" />
+                <SelectField field="Left_AA CF PTO Balance MINUS PTO Taken in Current Period" selected="True" input="Left_" />
+                <SelectField field="Left_Live/Work in Specified County" selected="True" input="Left_" />
+                <SelectField field="Left_Live/Work in NYC" selected="True" input="Left_" />
+                <SelectField field="Left_ZipCode" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_County" selected="True" input="Left_" />
+                <SelectField field="Right_Teammate ID" selected="False" rename="Right_Teammate ID" input="Right_" />
+                <SelectField field="Right_Legal Name - First Name" selected="False" rename="Right_Legal Name - First Name" input="Right_" />
+                <SelectField field="Right_Legal Name - Last Name" selected="False" rename="Right_Legal Name - Last Name" input="Right_" />
+                <SelectField field="Right_Job Category - ID" selected="False" rename="Right_Job Category - ID" input="Right_" />
+                <SelectField field="Right_Job Category" selected="False" rename="Right_Job Category" input="Right_" />
+                <SelectField field="Right_Job Title" selected="False" rename="Right_Job Title" input="Right_" />
+                <SelectField field="Right_Job Code" selected="False" rename="Right_Job Code" input="Right_" />
+                <SelectField field="Right_Cost Center - ID" selected="False" rename="Right_Cost Center - ID" input="Right_" />
+                <SelectField field="Right_Cost Center - Name" selected="False" rename="Right_Cost Center - Name" input="Right_" />
+                <SelectField field="Right_Worker's Modality - ID" selected="False" rename="Right_Worker's Modality - ID" input="Right_" />
+                <SelectField field="Right_Time Type" selected="False" rename="Right_Time Type" input="Right_" />
+                <SelectField field="Right_Exempt" selected="False" rename="Right_Exempt" input="Right_" />
+                <SelectField field="Right_Teammate Type" selected="False" rename="Right_Teammate Type" input="Right_" />
+                <SelectField field="Right_Email - Primary Work" selected="False" rename="Right_Email - Primary Work" input="Right_" />
+                <SelectField field="Right_Original Hire Date" selected="False" rename="Right_Original Hire Date" input="Right_" />
+                <SelectField field="Right_Last Start Date" selected="False" rename="Right_Last Start Date" input="Right_" />
+                <SelectField field="Right_Worker Type" selected="False" rename="Right_Worker Type" input="Right_" />
+                <SelectField field="Right_Location - ID" selected="False" rename="Right_Location - ID" input="Right_" />
+                <SelectField field="Right_Location - Name" selected="False" rename="Right_Location - Name" input="Right_" />
+                <SelectField field="Right_Primary Work Address" selected="False" rename="Right_Primary Work Address" input="Right_" />
+                <SelectField field="Right_Primary Work Address City" selected="False" rename="Right_Primary Work Address City" input="Right_" />
+                <SelectField field="Right_Primary Work State" selected="False" rename="Right_Primary Work State" input="Right_" />
+                <SelectField field="Right_Primary Postal" selected="False" rename="Right_Primary Postal" input="Right_" />
+                <SelectField field="Right_Work County Based on Zip " selected="False" rename="Right_Work County Based on Zip " input="Right_" />
+                <SelectField field="Right_Local County Withholding (Work) - County" selected="False" rename="Right_Local County Withholding (Work) - County" input="Right_" />
+                <SelectField field="Right_On Leave" selected="False" rename="Right_On Leave" input="Right_" />
+                <SelectField field="Right_Worker's Parent Group" selected="False" rename="Right_Worker's Parent Group" input="Right_" />
+                <SelectField field="Right_Worker's Parent Division" selected="False" rename="Right_Worker's Parent Division" input="Right_" />
+                <SelectField field="Right_DaVita Region - Name" selected="False" rename="Right_DaVita Region - Name" input="Right_" />
+                <SelectField field="Right_Worker's Manager" selected="False" rename="Right_Worker's Manager" input="Right_" />
+                <SelectField field="Right_DaVita Manager ID" selected="False" rename="Right_DaVita Manager ID" input="Right_" />
+                <SelectField field="Right_DaVita Manager First Name" selected="False" rename="Right_DaVita Manager First Name" input="Right_" />
+                <SelectField field="Right_DaVita Manager Last Name" selected="False" rename="Right_DaVita Manager Last Name" input="Right_" />
+                <SelectField field="Right_DaVita Manager Email" selected="False" rename="Right_DaVita Manager Email" input="Right_" />
+                <SelectField field="Right_Primary Home Address - Line 1" selected="False" rename="Right_Primary Home Address - Line 1" input="Right_" />
+                <SelectField field="Right_Primary Home Address - Line 2" selected="False" rename="Right_Primary Home Address - Line 2" input="Right_" />
+                <SelectField field="Right_Primary Home Address - City" selected="False" rename="Right_Primary Home Address - City" input="Right_" />
+                <SelectField field="Right_Primary Home Address - State" selected="False" rename="Right_Primary Home Address - State" input="Right_" />
+                <SelectField field="Right_Primary Home Address - Postal Code" selected="False" rename="Right_Primary Home Address - Postal Code" input="Right_" />
+                <SelectField field="Right_Local County Withholding (Resident) - County" selected="False" rename="Right_Local County Withholding (Resident) - County" input="Right_" />
+                <SelectField field="Right_Hourly Rate - Amount" selected="False" rename="Right_Hourly Rate - Amount" input="Right_" />
+                <SelectField field="Right_AA CF PTO Balance MINUS PTO Taken in Current Period" selected="False" rename="Right_AA CF PTO Balance MINUS PTO Taken in Current Period" input="Right_" />
+                <SelectField field="Right_Live/Work in Specified County" selected="False" rename="Right_Live/Work in Specified County" input="Right_" />
+                <SelectField field="Right_Live/Work in NYC" selected="False" rename="Right_Live/Work in NYC" input="Right_" />
+                <SelectField field="Right_ZipCode" selected="False" rename="Right_ZipCode" input="Right_" />
+                <SelectField field="Right_State" selected="False" rename="Right_State" input="Right_" />
+                <SelectField field="Right_City" selected="False" rename="Right_City" input="Right_" />
+                <SelectField field="Right_County" selected="False" rename="Right_County" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1026" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Work County Based on Zip ] IN (&quot;Dutchess&quot;, &quot;Rockland&quot;, &quot;Putnam&quot;, &quot;Westchester&quot;) AND [Home County] IN (&quot;Dutchess&quot;, &quot;Rockland&quot;, &quot;Putnam&quot;, &quot;Westchester&quot;) THEN &quot;Live and Work&quot; ELSEIF [Work County Based on Zip ] = &quot;Dutchess&quot; THEN &quot;Work&quot; ELSEIF [Work County Based on Zip ] = &quot;Rockland&quot; THEN &quot;Work&quot; ELSEIF [Work County Based on Zip ] = &quot;Putnam&quot; THEN &quot;Work&quot; ELSEIF [Work County Based on Zip ] = &quot;Westchester&quot; THEN &quot;Work&quot; ELSEIF [Home County] = &quot;Dutchess&quot; THEN &quot;Live&quot; ELSEIF [Home County] = &quot;Rockland&quot; THEN &quot;Live&quot; ELSEIF [Home County] = &quot;Putnam&quot; THEN &quot;Live&quot; ELSEIF [Home County] = &quot;Westchester&quot; THEN &quot;Live&quot; ELSE Null() ENDIF" field="Live/Work in Specified County" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Conditional statement to populate the Live/Work in Specified Counties column by first looking for and assigning the label to teammates who both Live and Work in these counties, then by assigning the label to teammates who only work in these counties, then by assigning the label to the teammates who only live in these counties and fills the remaining cells with NULL
+
+
+Live/Work in Specified County = IF [Work County Based on Zip ] IN ("Dutchess", "...</AnnotationText>
+          <DefaultAnnotationText>Live/Work in Specified County = IF [Work County Based on Zip ] IN ("Dutchess", "...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1554" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\template.xlsx|||Detail</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Outputs the results to a specific workbook and sheet
+
+nyctest225.xlsx
+Query=Detail</AnnotationText>
+          <DefaultAnnotationText>template.xlsx
+Query=Detail</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1218" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Correct Home City Based on Zip</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-02-25 06:54:19</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>New York</Operand>
+              <StartDate>2021-02-25 06:54:19</StartDate>
+              <EndDate>2021-02-25 06:54:19</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Selects only teammates who live in New York City
+
+[Correct Home City Based on Zip] = "New York"</AnnotationText>
+          <DefaultAnnotationText>[Correct Home City Based on Zip] = "New York"</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1554" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\template.xlsx|||LiveWork in NYC</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Outputs the results to a specific workbook and sheet
+
+nyctest225.xlsx
+Query=LiveWork in NYC</AnnotationText>
+          <DefaultAnnotationText>template.xlsx
+Query=LiveWork in NYC</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1170" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Live/Work in Specified County] = "Work" OR [Live/Work in Specified County] = "Live" OR [Live/Work in Specified County] = "Live and Work"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Selects only teammates that have one of the required 3 labels
+
+[Live/Work in Specified County] = "Work" OR [Live/Work in Specified County] = "L...</AnnotationText>
+          <DefaultAnnotationText>[Live/Work in Specified County] = "Work" OR [Live/Work in Specified County] = "L...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1554" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">I:\Benefits\Analyst Reporting\Leave of Absence\NY State Covid-Related Ordinances\template.xlsx|||LiveWork in Specified Counties</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Outputs the results to a specific workbook and sheet
+
+
+nyctest225.xlsx
+Query=LiveWork in Specified Counti...</AnnotationText>
+          <DefaultAnnotationText>template.xlsx
+Query=LiveWork in Specified Counti...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="1386" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Block: Ensures this line is processed 1st</AnnotationText>
+          <DefaultAnnotationText>Block: Ensures this line is processed 1st</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="1386" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Block: Ensures this line is processed 2nd</AnnotationText>
+          <DefaultAnnotationText>Block: Ensures this line is processed 2nd</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="1386" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Block: Ensures this line is processed 3rd</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="30" y="18" width="576" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Process: NY City Ordinance Teammate Listing
+
+This report was created to identify teammates who live, work or both live and work in certain counties within the state of NY.
+
+Cadence: Monthly - Due by 15th
+File Arrives: Around 1st of the month from Nicole Hinrichs
+
+
+
+Request:
+
+Here is the NY report that I receive monthly. As discussed, can you you please filter down the report to include teammates who work and/or live in one of these four counties (Dutchess County, Rockland County, Putnam County or Westchester County)? In addition, I need to know what teammate work and/or live in New York City
+
+I know we discussed the first of the month is busy so please return when you are able. Returning mid-month is fine.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="894" y="78" width="336" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Teammates Dropping Off Use Cases:
+
+Teammate has no home address listed
+Teammate's home address is in Canada
+Teammate has incorrect postal code listed
+Postal code may be newer and missing from cumulative list</Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="128" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="690" y="6" width="60" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Created 2.24.2021</Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="0" g="128" b="192" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="378" width="96" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Change Input As Needed</Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="255" g="0" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="390" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Primary Home Address - Postal Code</Field>
+          <RegExExpression value="^[[:alpha:]]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="14131">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Primary Home Address - Postal Code</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Teammate ID_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Replaces any postal code that starts with a letter indicating a Canada home address with a nearby NY zip code that does not match the requested counties/city</AnnotationText>
+          <DefaultAnnotationText>Replaces any postal code that starts with a letter indicating a Canada home address with a nearby NY zip code that does not match the requested counties/city</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([Primary Home Address - Postal Code]) THEN [Primary Postal] ELSE [Primary Home Address - Postal Code] ENDIF" field="Primary Home Address - Postal Code" size="255" type="V_String" />
+            <FormulaField expression="IF [Primary Home Address - Postal Code] = &quot;11711&quot; THEN REPLACE ([Primary Home Address - Postal Code], &quot;11711&quot;, &quot;11701&quot;) ELSE [Primary Home Address - Postal Code] ENDIF" field="Primary Home Address - Postal Code" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Replaces missing Home postal codes with Work (Primary) Postal Code
+
+Replaces Brazil postal code with correct postal code
+
+Primary Home Address - Postal Code = IF IsNull([Primary Home Address - Postal Co...</AnnotationText>
+          <DefaultAnnotationText>Primary Home Address - Postal Code = IF IsNull([Primary Home Address - Postal Co...</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="27" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="27" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Join" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="True" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output2" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output3" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ET - NY Tms Living_Working_Select_Counties</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
