@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="464" y="54" width="120" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Created 5.10.2021</Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="0" g="128" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="138" width="946" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Combines Multiple Thuy Hours Worked Reports</Caption>
+          <Style TextColor="#ffffff" FillColor="#ff80c0" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="870" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\etansley\AppData\Local\Temp\Engine_15496_e26005b35c524af484847ece625b8713_\Engine_1464_405e389e387d43ca92248dde0c404f8d_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Check that the data looks as expected</AnnotationText>
+              <DefaultAnnotationText>Check that the data looks as expected</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="464" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="ClientEmplID" action="GroupBy" rename="ClientEmplID" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Group by TM so that all of the TM's records are together</AnnotationText>
+              <DefaultAnnotationText>Group by TM so that all of the TM's records are together</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="570" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Unions the original data with the grouped by data</AnnotationText>
+              <DefaultAnnotationText>Unions the original data with the grouped by data</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="774" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="ClientEmplID" order="Ascending" />
+                <Field field="FileName" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Sorts so that the files go in chronological order by TM
+
+ClientEmplID - Ascending
+FileName - Ascending</AnnotationText>
+              <DefaultAnnotationText>ClientEmplID - Ascending
+FileName - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="870" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="">I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\2020-2021 8.13.2021.yxdb</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Saves the combined file ranges into an Alteryx database to be used in part two into:
+I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv
+
+2020-2021 5.10.2021.yxdb</AnnotationText>
+              <DefaultAnnotationText>2020-2021 8.13.2021.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="79" y="233" width="374" height="285" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Macro</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="1">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+                <Position x="104" y="282" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Directory>I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z</Directory>
+                  <FileSpec>*.csv</FileSpec>
+                  <IncludeSubDirs value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Gets input from a selected directory
+
+dir I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\*.csv</AnnotationText>
+                  <DefaultAnnotationText>dir I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\*.csv</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+            </Node>
+            <Node ToolID="18">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="332" y="282" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="WeekEnd" selected="True" />
+                    <SelectField field="ClientEmplID" selected="True" />
+                    <SelectField field="SumOfNonWorkedHours" selected="True" />
+                    <SelectField field="SumOfTotHours" selected="True" />
+                    <SelectField field="FileName" selected="True" />
+                    <SelectField field="Teammate ID" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Select only the needed fields to prevent longer than needed processing</AnnotationText>
+                  <DefaultAnnotationText>Select only the needed fields to prevent longer than needed processing</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="19">
+              <GuiSettings>
+                <Position x="224" y="282" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="ControlParams"><![CDATA[Control Parameter (3)=FullPath
+]]></Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name>Consignor (2)</Name>
+                  <AnnotationText>Macro settings - right click and choose the black + (open macro) to update the template schema for use</AnnotationText>
+                  <DefaultAnnotationText><![CDATA[Macro settings - right click ]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output5">
+                  <RecordInfo>
+                    <Field name="MPD" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="WeekEnd" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="GroupName" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="DivisionName" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="ClientEmplID" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="SiteNo" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="SiteName" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="MappedTo" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="SumOfRegHours" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="SumOfDailyOTHours" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="SumOfDailyDTHours" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="SumOfWklyOTHours" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="SumOfWklyDTHours" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="SumOfNonWorkedHours" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="SumOfTotHours" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                    <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings Macro="C:\Users\etansley\Downloads\Floq\Consignor.yxmc" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="678" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>WeekEnd</InputFieldName>
+              <Language>English</Language>
+              <Format>yyyy-MM-dd</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert WeekEnd From:
+yyyy-MM-dd</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="19" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output5" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Combine2020-2021HWReports</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="94ad33bd-5faf-4b4d-8db8-47d4ce15d994" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="94ad33bd-5faf-4b4d-8db8-47d4ce15d994" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="463" y="54" width="120" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Created 5.10.2021</Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="0" g="128" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1087" y="281" width="258" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Remaining Formula Calculations</Caption>
+          <Style TextColor="#314c4a" FillColor="#c6ffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1112" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\etansley\AppData\Local\Temp\Engine_3128_99e2e524823e46b9adbfb3a5d6fd6f22_\Engine_10588_bfbbb7fab30e48cda7cfdbcb5915ed25_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Browse information - if accurate, can implement the rest of the formulas</AnnotationText>
+              <DefaultAnnotationText>Browse information - if accurate, can implement the rest of the formulas</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="125" width="993" height="652" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Individual TM Lookup</Caption>
+          <Style TextColor="#000000" FillColor="#ffcaff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\2020-2021 10.8.2021.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Imports the Alteryx Database file that holds the combined Thuy Hours Worked report from this location: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv
+
+2020-2021 5.10.2021.yxdb</AnnotationText>
+              <DefaultAnnotationText>2020-2021 10.8.2021.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ClientEmplID" size="254" source="(Multiple Sources)" type="V_WString" />
+                <Field name="WeekEnd" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                <Field name="SumOfNonWorkedHours" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                <Field name="SumOfTotHours" size="254" source="File: I:\Benefits\Reporting\TM Eligibility\Hours Worked Reports\2020-2021.csv\.xlsx\z\06_a_QRY_DKC Time File-Update PPE 1-11-2020.csv" type="V_WString" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+                <Field name="DateTime_Out" source="DateTime: To yyyy-MM-dd" type="Date" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="187" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="SumOfNonWorkedHours" selected="True" type="Double" size="8" />
+                <SelectField field="SumOfTotHours" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Selects all fields</AnnotationText>
+              <DefaultAnnotationText>Selects all fields</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="295" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>ClientEmplID</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-05-10 16:01:03</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2021-05-10 16:01:03</StartDate>
+                  <EndDate>2021-05-10 16:01:03</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Filters by specific employee
+]]></AnnotationText>
+              <DefaultAnnotationText>[ClientEmplID] = ""</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="451" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[WeekEnd] &gt;= "2021-03-19" AND [WeekEnd] &lt;= "2021-09-19"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filters by only rows designated - need to manually select them based on the week in which the TM took 4CSF leave code
+
+[WeekEnd] &gt;= "2020-07-11" AND [WeekEnd] &lt;= "2021-01-16"</AnnotationText>
+              <DefaultAnnotationText>[WeekEnd] &gt;= "2021-03-19" AND [WeekEnd] &lt;= "2021-09-19"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="571" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="WeekEnd" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Sorts the weeks in chronological order
+
+WeekEnd - Ascending</AnnotationText>
+              <DefaultAnnotationText>WeekEnd - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="679" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[SumOfTotHours] - [SumOfNonWorkedHours]" field="ProductiveHours" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Removes the non-productive pay time recorded
+
+ProductiveHours = [SumOfTotHours] - [SumOfNonWorkedHours]
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[ProductiveHours = [SumOfTotHours] - [SumOfNonWorkedHours]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="799" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="ProductiveHours" action="Sum" rename="Sum_ProductiveHours" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Creates a new column with the sum of the hours worked - this will be the base figure that is needed to calculate the rest of the numbers needed to properly assess the teammate's hours 6 months prior to taking leave as specified by the CA COVID bill passed</AnnotationText>
+              <DefaultAnnotationText>Creates a new column with the sum of the hours worked - this will be the base figure that is needed to calculate the rest of the numbers needed to properly assess the teammate's hours 6 months prior to taking leave</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="919" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Unions both together to keep all information in tact</AnnotationText>
+              <DefaultAnnotationText>Unions both together to keep all information in tact</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="259" y="294" width="132" height="47" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Change TMID based on which TM you are researching</Text>
+              <Font name="Arial" size="8.25" style="1" />
+              <TextColor name="White" />
+              <FillColor r="255" g="0" b="128" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="403" y="174" width="228" height="144" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Change Dates based on which TM you are researching based on Week End:
+
+If TM took 4CSF starting 4.18.2021 the dates below would be:
+[WeekEnd] &gt;= "2020-10-18" AND [WeekEnd] &lt;= "2021-04-18"
+
+There should only be 26 weeks in total, any extra will be cut off of the end</Text>
+              <Font name="Arial" size="8.25" style="1" />
+              <TextColor name="White" />
+              <FillColor r="0" g="128" b="255" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>TM4CSFLookup</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6af9b410-309c-4eef-a32e-745f5b938264" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="6af9b410-309c-4eef-a32e-745f5b938264" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
