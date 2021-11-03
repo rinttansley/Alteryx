@@ -1,0 +1,3321 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="704" y="66" width="60" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Created 3.23.2021</Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="0" g="128" b="192" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="68" y="150" width="612" height="444" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[
+From: Nicole Hinrichs
+
+Request:
+
+We had out meeting earlier today and we are going to need a list of all teammates who work in California. Can you please have two tabs and have them include the following?
+
+•	One tab with all full-time teammates (teammates who work 30 hours or more). On this tab I will need the following  information: teammate name, teammate ID, teammate home address, work email address, work location/address, manager name, manager email address and palmer. 
+•	A second tab with all part-time and per diem teammates. On this tab I will need the following: teammate name, teammate ID, teammate home address, FTE type (percentage and also converted to hours per week), work email address, work location/address, manager name, manager email address and palmer. Can you please also add a column at the very end of the report of the hours per week and double that number? (Example: TM is 50% FTE therefore this is 20 hours a week, last column should have 40 hours).
+
+The difference between the first tab and the second tab which I have highlighted is I need FTE information on the part-time and per diem group. I do not need this information for the full-time teammate as all full-time teammates (regardless of how many hours they work a week) will get 80 hours.
+
+Also, the request is for teammates who physically work in California. We know that for our CBO teammates, they may fall under a Colorado work location however if they are a remote teammate and physically work in California they should be included on this report. Can you make sure remote teammates are also included on this report?
+
+Is it possible to receive this information by Friday? Please let me know if you have any questions. I appreciate your help.
+
+
+Files Used:
+Ben Actives - \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt
+
+Covid Paid Sick Leave(Dec 2020/Jan 2021):
+\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="80" y="54" width="576" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Data Location: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021</Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="255" g="128" b="192" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="740" y="138" width="216" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Calculations:
+
+If the teammate has leave that was taken and started in 2020, this does not factor into their new 2021 allotted bank of PTO
+
+If TM has a min date in 2020, 2021 leave = 80, if not, 2021 = leave - sum of total hours already used
+]]></Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="64" g="128" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1028" y="90" width="264" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Does 80 need to be adjusted based on their doubles? I just put 80 for all and not what their double hours is so that might need to be adjusted</Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor r="255" g="0" b="128" />
+          <FillColor name="Black" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="384" y="798" width="312" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Dates Needing to be run:
+
+3/23 - 4/14 - Send on 4.15 - Done
+4.15 - 4.28 - Send on 4.29
+4.29 - 5.12 - Send on 5.13
+5.13 - 5.26 - Send on 5.27
+]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="132">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2190" y="1626" width="588" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Calculate hours.
+
+a.	Take the total number of hours worked in the last 6 months (from first date of COVID Paid Sick Leave).
+b.	Divide that number by 182
+c.	Multiple that number by 14
+d.	This is the total hours that they should be eligible for</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="462" y="1698" width="253" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>ALL-ROLLING Active PT and PD</Caption>
+          <Style TextColor="#314c4a" FillColor="#80ffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="116">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="918" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Teammate ID" selected="True" />
+                <SelectField field="Social Security Number" selected="False" />
+                <SelectField field="Teammate Type" selected="False" />
+                <SelectField field="Legal Name - First Name" selected="True" />
+                <SelectField field="Legal Name - Last Name" selected="True" />
+                <SelectField field="Time Type" selected="True" />
+                <SelectField field="FT/PT/PRN" selected="True" />
+                <SelectField field="Preferred Name - First Name" selected="False" />
+                <SelectField field="Preferred Name - Last Name" selected="False" />
+                <SelectField field="Date of Birth" selected="False" />
+                <SelectField field="Gender" selected="False" />
+                <SelectField field="Original Hire Date" selected="True" />
+                <SelectField field="Hire Date" selected="False" />
+                <SelectField field="On Leave = Yes" selected="False" />
+                <SelectField field="Leave Type" selected="False" />
+                <SelectField field="Continuous Service Date" selected="False" />
+                <SelectField field="Benefits Service Date" selected="False" />
+                <SelectField field="Exempt?" selected="False" />
+                <SelectField field="Job Code" selected="False" />
+                <SelectField field="Job Title" selected="False" />
+                <SelectField field="Job Category - ID" selected="False" />
+                <SelectField field="Job Category - Name" selected="False" />
+                <SelectField field="Job Family Name" selected="False" />
+                <SelectField field="Email - Work" selected="True" />
+                <SelectField field="Email - Primary Home" selected="False" />
+                <SelectField field="Management Level" selected="False" />
+                <SelectField field="Total Base Pay Annualized - Amount" selected="False" />
+                <SelectField field="Scheduled Weekly Hours" selected="True" />
+                <SelectField field="Location - ID" selected="False" />
+                <SelectField field="Location Name" selected="False" />
+                <SelectField field="Phone - Primary Home" selected="False" />
+                <SelectField field="Primary Work Phone" selected="False" />
+                <SelectField field="Modality" selected="False" />
+                <SelectField field="Group" selected="False" />
+                <SelectField field="Division" selected="False" />
+                <SelectField field="Region" selected="False" />
+                <SelectField field="Facility" selected="False" />
+                <SelectField field="Cost Center - ID" selected="False" />
+                <SelectField field="Cost Center - Name" selected="False" />
+                <SelectField field="Home Address Str 1" selected="False" />
+                <SelectField field="Home Address str 2" selected="False" />
+                <SelectField field="Primary Home Address - City" selected="False" />
+                <SelectField field="Primary Home Address - State" selected="True" rename="HomeState" />
+                <SelectField field="Primary Home Address - Postal Code" selected="False" />
+                <SelectField field="DaVita Manager Email" selected="False" />
+                <SelectField field="DaVita Manager First Name" selected="False" />
+                <SelectField field="DaVita Manager Last Name" selected="False" />
+                <SelectField field="Manager's Job Function" selected="False" />
+                <SelectField field="Manager's Job Title" selected="False" />
+                <SelectField field="HR Partner" selected="False" />
+                <SelectField field="Location Address Str 1" selected="False" />
+                <SelectField field="Location Address Str 2" selected="False" />
+                <SelectField field="Location City" selected="False" />
+                <SelectField field="Location State" selected="True" rename="WorkState" />
+                <SelectField field="Location Zip Code" selected="False" />
+                <SelectField field="Company - ID" selected="False" />
+                <SelectField field="Company - Name" selected="False" />
+                <SelectField field="Group2" selected="False" />
+                <SelectField field="CF EVAL Worker FEIN for Hewitt Eligibility File bo WORKER" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Selects only certain fields</AnnotationText>
+              <DefaultAnnotationText>Selects only certain fields</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="117">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+            <Position x="486" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Directory>\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt</Directory>
+              <FileSpec>*.*</FileSpec>
+              <IncludeSubDirs value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Gets most recent file saved in the Ben Actives directory
+
+dir I:\Benefits\Reporting\Ben Actives Rpt\*.*</AnnotationText>
+              <DefaultAnnotationText>dir \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt\*.*</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+        </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="594" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="CreationTime" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Chooses file based on the most recent creation date within the directory
+
+CreationTime - Descending</AnnotationText>
+              <DefaultAnnotationText>CreationTime - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="119">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="690" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Chooses only the information from the first file - if you were to select a different threshold, you would get information from multiple files
+
+First 1</AnnotationText>
+              <DefaultAnnotationText>First 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="120">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicInput.DynamicInput">
+            <Position x="798" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <InputConfiguration>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-04-14 04_11 MDT.xlsx|||`Sheet1$`</File>
+                  <FormatSpecificOptions>
+                    <FirstRowData>False</FirstRowData>
+                    <ImportLine>3</ImportLine>
+                  </FormatSpecificOptions>
+                </Configuration>
+              </InputConfiguration>
+              <Mode>ReadList</Mode>
+              <ReadList_Field>FullPath</ReadList_Field>
+              <ReadList_Type>Path</ReadList_Type>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Allows you to designate the file you want as a template</AnnotationText>
+              <DefaultAnnotationText>WDHR_Actives _Benefits 2021-04-14 04_11 MDT.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicInput" />
+        </Node>
+        <Node ToolID="123">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1014" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>!=</Operator>
+                <Field>Time Type</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-04-20 15:47:12</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2021-04-20 15:47:12</StartDate>
+                  <EndDate>2021-04-20 15:47:12</EndDate>
+                  <Operand>Full time</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Time Type] != "Full time"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="125">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1110" y="1758" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>HomeState</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-04-20 16:13:21</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2021-04-20 16:13:21</StartDate>
+                  <EndDate>2021-04-20 16:13:21</EndDate>
+                  <Operand>CA</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[HomeState] = "CA"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="133">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1206" y="1746" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="PadLeft([Teammate ID],6,&quot;0&quot;)" field="Teammate ID" size="255" type="V_String" />
+                <FormulaField expression="&quot;I:\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\BiWeeklyPTPD &quot;+ DateTimeToday() + &quot;.csv&quot;" field="FileName" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Adds leading 0s into the TMID and creates the FileName
+]]></AnnotationText>
+              <DefaultAnnotationText>Teammate ID = PadLeft([Teammate ID],6,"0")
+FileName = "I:\Benefits\Reporting\Dat...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="134">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1314" y="1746" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\BiWeeklyPTPD\CA.PT.PD Teammates 7.14.2021.xlsx|||CA.PT.PD</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>RemoveFile</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="True" />
+              <MultiFileType>Suffix</MultiFileType>
+              <MultiFileField>FileName</MultiFileField>
+              <KeepField value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CA.PT.PD Teammates 7.14.2021.xlsx
+Query=CA.PT.PD</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="474" y="1758" width="182" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Bi-Weekly Portion</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffb0" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1230" y="1830" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>HomeState</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-04-06 15:41:03</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>CA</Operand>
+                  <StartDate>2021-04-06 15:41:03</StartDate>
+                  <EndDate>2021-04-06 15:41:03</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filters based on Home State only being CA
+
+[HomeState] = "CA"</AnnotationText>
+              <DefaultAnnotationText>[HomeState] = "CA"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1338" y="1818" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>DateRange</Operator>
+                <Field>Original Hire Date</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-04-06 15:44:47</PeriodDate>
+                  <PeriodType>days</PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2021-08-05</StartDate>
+                  <EndDate>2021-08-18</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filters for only individuals who were hired since the last time the report ran
+
+[Original Hire Date] &gt;= "2021-03-23" AND
+[Original Hire Date] &lt;= "2021-04-14"</AnnotationText>
+              <DefaultAnnotationText>[Original Hire Date] &gt;= "2021-08-05" AND
+[Original Hire Date] &lt;= "2021-08-18"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1122" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[HomeState] == "CA" OR [WorkState] == "California"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filters out individuals who are not living or working in CA
+
+[Home State] == "CA" OR [Work State] == "California"</AnnotationText>
+              <DefaultAnnotationText>[HomeState] == "CA" OR [WorkState] == "California"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1566" y="1806" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\NewHiresList\CA Supp Sick Leave To Load.xlsx|||NewHires8.19.2021</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CA Supp Sick Leave To Load.xlsx
+Query=NewHires8.19.2021</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1014" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="//Calculates double time based on scheduled hours&#xA;IF [Time Type]== &quot;Full time&quot; THEN 80 ELSE [Scheduled Weekly Hours] * 2 ENDIF" field="DoubleHours" size="2" type="Int16" />
+                <FormulaField expression="//Calcualtes how many new CA COVID sick hours are owed&#xA;IF [Time Type] = &quot;Full time&quot; THEN 80 ELSE [DoubleHours] ENDIF" field="SickHoursToLoad" size="2" type="Int16" />
+                <FormulaField expression="/*Calculates Full Time Equivalant based on industry&#xA;definition*/&#xA;([Scheduled Weekly Hours] / 40) * 100" field="FTE %" size="2" type="Int16" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Performs 3 calculations
+
+DoubleHours = //Calculates double time based on scheduled hours
+IF [Time Type]==...</AnnotationText>
+              <DefaultAnnotationText>DoubleHours = //Calculates double time based on scheduled hours
+IF [Time Type]==...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="930" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Teammate ID" selected="True" />
+                <SelectField field="Time Type" selected="True" />
+                <SelectField field="Legal Name - First Name" selected="True" />
+                <SelectField field="Legal Name - Last Name" selected="True" />
+                <SelectField field="Original Hire Date" selected="True" />
+                <SelectField field="Email - Work" selected="True" />
+                <SelectField field="Scheduled Weekly Hours" selected="True" />
+                <SelectField field="FT/PT/PRN" selected="True" />
+                <SelectField field="Primary Home Address - State" selected="True" rename="HomeState" />
+                <SelectField field="Location State" selected="True" rename="WorkState" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Selects only certain fields</AnnotationText>
+              <DefaultAnnotationText>Selects only certain fields</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1446" y="1806" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Teammate ID" selected="True" />
+                <SelectField field="Time Type" selected="True" />
+                <SelectField field="Legal Name - First Name" selected="True" />
+                <SelectField field="Legal Name - Last Name" selected="True" />
+                <SelectField field="Original Hire Date" selected="True" />
+                <SelectField field="Email - Work" selected="True" />
+                <SelectField field="Scheduled Weekly Hours" selected="True" />
+                <SelectField field="FT/PT/PRN" selected="True" />
+                <SelectField field="FTE %" selected="True" />
+                <SelectField field="HomeState" selected="True" />
+                <SelectField field="WorkState" selected="True" />
+                <SelectField field="DoubleHours" selected="False" />
+                <SelectField field="SickHoursToLoad" selected="True" rename="PaidSickLeaveBalance" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Changes the last field name to one Nicole requested</AnnotationText>
+              <DefaultAnnotationText>Changes the last field name to one Nicole requested</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+            <Position x="498" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Directory>\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt</Directory>
+              <FileSpec>*.*</FileSpec>
+              <IncludeSubDirs value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Gets most recent file saved in the Ben Actives directory
+
+dir I:\Benefits\Reporting\Ben Actives Rpt\*.*</AnnotationText>
+              <DefaultAnnotationText>dir \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt\*.*</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="606" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="CreationTime" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Chooses file based on the most recent creation date within the directory
+
+CreationTime - Descending</AnnotationText>
+              <DefaultAnnotationText>CreationTime - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="702" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Chooses only the information from the first file - if you were to select a different threshold, you would get information from multiple files
+
+First 1</AnnotationText>
+              <DefaultAnnotationText>First 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="113">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicInput.DynamicInput">
+            <Position x="810" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <InputConfiguration>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-04-14 04_11 MDT.xlsx|||`Sheet1$`</File>
+                  <FormatSpecificOptions>
+                    <FirstRowData>False</FirstRowData>
+                    <ImportLine>3</ImportLine>
+                  </FormatSpecificOptions>
+                </Configuration>
+              </InputConfiguration>
+              <Mode>ReadList</Mode>
+              <ReadList_Field>FullPath</ReadList_Field>
+              <ReadList_Type>Path</ReadList_Type>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Allows you to designate the file you want as a template</AnnotationText>
+              <DefaultAnnotationText>WDHR_Actives _Benefits 2021-04-14 04_11 MDT.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="619" width="302" height="146" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Process</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="82" y="668" width="243" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>3.23 - First Capture - One Tab</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffca" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="16">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+                <Position x="107" y="1002" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`</File>
+                  <FormatSpecificOptions>
+                    <FirstRowData>False</FirstRowData>
+                    <ImportLine>3</ImportLine>
+                  </FormatSpecificOptions>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Pulls in Ben Actives Report (set at 3.23.2021) - should not need to go any further
+
+WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx
+Query=`Sheet1$`</AnnotationText>
+                  <DefaultAnnotationText>WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Teammate ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Social Security Number" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Teammate Type" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Time Type" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Legal Name - First Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Legal Name - Last Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Preferred Name - First Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Preferred Name - Last Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Date of Birth" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="Gender" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Original Hire Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="Hire Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="On Leave = Yes" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Leave Type" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Continuous Service Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="Benefits Service Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="Exempt?" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Job Code" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Job Title" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Job Category - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Job Category - Name" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                    <Field name="Job Family Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Email - Work" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Email - Primary Home" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Management Level" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Total Base Pay Annualized - Amount" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                    <Field name="Scheduled Weekly Hours" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                    <Field name="FT/PT/PRN" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Phone - Primary Home" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_WString" />
+                    <Field name="Primary Work Phone" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Modality" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Group" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Division" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Region" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Facility" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Cost Center - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Cost Center - Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Home Address Str 1" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_WString" />
+                    <Field name="Home Address str 2" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Primary Home Address - City" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Primary Home Address - State" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Primary Home Address - Postal Code" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="DaVita Manager Email" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="DaVita Manager First Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="DaVita Manager Last Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Manager's Job Function" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Manager's Job Title" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="HR Partner" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                    <Field name="Location Address Str 1" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location Address Str 2" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location City" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location State" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location Zip Code" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Company - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Company - Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Group2" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="CF EVAL Worker FEIN for Hewitt Eligibility File bo WORKER" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+            </Node>
+            <Node ToolID="17">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="228" y="1002" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Teammate ID" selected="True" />
+                    <SelectField field="Teammate Type" selected="True" />
+                    <SelectField field="Time Type" selected="True" />
+                    <SelectField field="Legal Name - First Name" selected="True" />
+                    <SelectField field="Legal Name - Last Name" selected="True" />
+                    <SelectField field="Email - Work" selected="True" />
+                    <SelectField field="Scheduled Weekly Hours" selected="True" />
+                    <SelectField field="Group" selected="True" />
+                    <SelectField field="Home Address Str 1" selected="True" rename="Home Address 1" />
+                    <SelectField field="Home Address str 2" selected="True" rename="Home Address 2" />
+                    <SelectField field="Primary Home Address - City" selected="True" rename="Home City" />
+                    <SelectField field="Primary Home Address - State" selected="True" rename="Home State" />
+                    <SelectField field="Primary Home Address - Postal Code" selected="True" rename="Home Zip" />
+                    <SelectField field="DaVita Manager Email" selected="True" />
+                    <SelectField field="DaVita Manager First Name" selected="True" />
+                    <SelectField field="DaVita Manager Last Name" selected="True" />
+                    <SelectField field="Location Address Str 1" selected="True" rename="Work Address 1" />
+                    <SelectField field="Location Address Str 2" selected="True" rename="Work Address 2" />
+                    <SelectField field="Location City" selected="True" rename="Work City" />
+                    <SelectField field="Location State" selected="True" rename="Work State" />
+                    <SelectField field="Location Zip Code" selected="True" rename="Work Zip" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Selects certain fields to display based on the ask</AnnotationText>
+                  <DefaultAnnotationText>Selects certain fields to display</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="26">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="324" y="1002" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[Home State] == "CA" OR [Work State] == "California"</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Filters out individuals who are not living or working in CA
+
+[Home State] == "CA" OR [Work State] == "California"</AnnotationText>
+                  <DefaultAnnotationText>[Home State] == "CA" OR [Work State] == "California"</DefaultAnnotationText>
+                  <Left value="True" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="49">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1440" y="1086" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="ClientEmplID" selected="False" />
+                    <SelectField field="Min_Transdate" selected="True" rename="LeaveStart" />
+                    <SelectField field="Max_Transdate" selected="True" rename="LeaveEnd" />
+                    <SelectField field="Sum_SumOfTotHours" selected="True" rename="LeaveHoursTaken" />
+                    <SelectField field="Remaining 2021" selected="True" rename="2021SickHoursRemaining" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="48">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+                <Position x="1104" y="1098" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ByName_ErrorMode>Warning</ByName_ErrorMode>
+                  <ByName_OutputMode>All</ByName_OutputMode>
+                  <Mode>ByName</Mode>
+                  <SetOutputOrder value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+            </Node>
+            <Node ToolID="46">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="1176" y="1098" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="0">
+                    <Field field="Teammate ID" order="Ascending" />
+                    <Field field="ClientEmplID" order="Ascending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Teammate ID - Ascending
+ClientEmplID - Ascending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="36">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1536" y="1086" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA Supp Sick Leave 3.23.2021.xlsx|||4221</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <PreserveFormat>False</PreserveFormat>
+                    <SkipFieldNames>False</SkipFieldNames>
+                    <OutputOption>Overwrite</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>CA Supp Sick Leave 3.23.2021.xlsx
+Query=4221</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="43">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="996" y="1134" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="IF [Sum_SumOfTotHours] == Null() THEN [Double Hours] ELSE [Double Hours] - [Sum_SumOfTotHours] ENDIF" field="Remaining 2021" size="4" type="Float" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Remaining 2021 = IF [Sum_SumOfTotHours] == Null() THEN [Double Hours] ELSE [Doub...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="42">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="996" y="1074" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="80" field="Remaining 2021" size="4" type="Float" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[Remaining 2021 = 80
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="35">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+                <Position x="816" y="1086" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ByName_ErrorMode>Warning</ByName_ErrorMode>
+                  <ByName_OutputMode>All</ByName_OutputMode>
+                  <Mode>ByName</Mode>
+                  <SetOutputOrder value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+            </Node>
+            <Node ToolID="34">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="672" y="1086" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="Teammate ID" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="ClientEmplID" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Left_Double Hours" selected="True" input="Left_" type="Float" size="4" />
+                        <SelectField field="Right_Sum_SumOfTotHours" selected="True" input="Right_" type="Float" size="4" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="32">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="900" y="1086" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>DateRange</Operator>
+                    <Field>Min_Transdate</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2021-03-25 16:06:52</PeriodDate>
+                      <PeriodType>days</PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>
+                      </Operand>
+                      <StartDate>2020-12-01</StartDate>
+                      <EndDate>2020-12-31</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Min_Transdate] &gt;= "2020-12-01" AND
+[Min_Transdate] &lt;= "2020-12-31"</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="31">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="444" y="1218" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="ClientEmplID" action="GroupBy" rename="ClientEmplID" />
+                    <SummarizeField field="Transdate" action="Min" rename="Min_Transdate" />
+                    <SummarizeField field="Transdate" action="Max" rename="Max_Transdate" />
+                    <SummarizeField field="SumOfTotHours" action="Sum" rename="Sum_SumOfTotHours" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="30">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="372" y="1218" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="29">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+                <Position x="192" y="1218" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`</File>
+                  <FormatSpecificOptions>
+                    <FirstRowData>False</FirstRowData>
+                    <ImportLine>1</ImportLine>
+                  </FormatSpecificOptions>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>CA COVID PSL 2021.xlsx
+Query=`_36a_QRY_PAYCODEs$`</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ClientEmplID" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="GroupCode" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="WeekEnd" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Date" />
+                    <Field name="MPD" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Date" />
+                    <Field name="Transdate" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Date" />
+                    <Field name="SiteNo" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="SiteName" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="StateCode" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="DeptNo" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="DeptName_Long" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="eHomeLocation" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="PayCodeID" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="PayCodeName" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="SumOfTotHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfRegHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfDailyOTHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfDailyDTHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfWklyOTHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfWklyDTHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfNonWorkedHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfDollarAdj" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+            </Node>
+            <Node ToolID="24">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="516" y="990" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Teammate ID" selected="True" />
+                    <SelectField field="Teammate Type" selected="True" />
+                    <SelectField field="Time Type" selected="True" />
+                    <SelectField field="Legal Name - First Name" selected="True" />
+                    <SelectField field="Legal Name - Last Name" selected="True" />
+                    <SelectField field="Email - Work" selected="True" />
+                    <SelectField field="Scheduled Weekly Hours" selected="True" />
+                    <SelectField field="FTE %" selected="True" />
+                    <SelectField field="Group" selected="True" />
+                    <SelectField field="Home Address 1" selected="True" />
+                    <SelectField field="Home Address 2" selected="True" />
+                    <SelectField field="Home City" selected="True" />
+                    <SelectField field="Home State" selected="True" />
+                    <SelectField field="Home Zip" selected="True" />
+                    <SelectField field="DaVita Manager Email" selected="True" />
+                    <SelectField field="DaVita Manager First Name" selected="True" />
+                    <SelectField field="DaVita Manager Last Name" selected="True" />
+                    <SelectField field="Work Address 1" selected="True" />
+                    <SelectField field="Work Address 2" selected="True" />
+                    <SelectField field="Work City" selected="True" />
+                    <SelectField field="Work State" selected="True" />
+                    <SelectField field="Work Zip" selected="True" />
+                    <SelectField field="Double Hours" selected="True" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Ensures all fields are selected</AnnotationText>
+                  <DefaultAnnotationText>Ensures all fields are selected</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="23">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="420" y="990" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="([Scheduled Weekly Hours] / 40) * 100" field="FTE %" size="4" type="Float" />
+                    <FormulaField expression="IF [Time Type]== &quot;Full time&quot; THEN 80 ELSE [Scheduled Weekly Hours] * 2 ENDIF" field="Double Hours" size="2" type="Int16" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Calculates the Federally defined Full Time Equivalent percentage which is Employee Scheduled Hours / Company Standard Work Week Hours
+
+FTE % = ([Scheduled Weekly Hours] / 40) * 100
+Double Hours = [Scheduled Weekly H...</AnnotationText>
+                  <DefaultAnnotationText>FTE % = ([Scheduled Weekly Hours] / 40) * 100
+Double Hours = IF [Time Type]== "F...</DefaultAnnotationText>
+                  <Left value="True" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="59">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="1308" y="1098" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>=</Operator>
+                    <Field>Home State</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2021-04-02 13:41:53</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <StartDate>2021-04-02 13:41:53</StartDate>
+                      <EndDate>2021-04-02 13:41:53</EndDate>
+                      <Operand>CA</Operand>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Home State] = "CA"</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="60">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="1344" y="1242" width="100" height="40" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>9878 without filter
+8551 + 1218 = 8769</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="79" y="716" width="252" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>4.6 - Second Capture - One Tab</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffb9dc" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="61">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+                <Position x="104" y="1050" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`</File>
+                  <FormatSpecificOptions>
+                    <FirstRowData>False</FirstRowData>
+                    <ImportLine>3</ImportLine>
+                  </FormatSpecificOptions>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Pulls in Ben Actives Report (set at 3.23.2021) - should not need to go any further
+
+WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx
+Query=`Sheet1$`</AnnotationText>
+                  <DefaultAnnotationText>WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Teammate ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Social Security Number" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Teammate Type" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Time Type" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Legal Name - First Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Legal Name - Last Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Preferred Name - First Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Preferred Name - Last Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Date of Birth" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="Gender" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Original Hire Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="Hire Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="On Leave = Yes" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Leave Type" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Continuous Service Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="Benefits Service Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                    <Field name="Exempt?" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Job Code" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Job Title" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Job Category - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Job Category - Name" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                    <Field name="Job Family Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Email - Work" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Email - Primary Home" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Management Level" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Total Base Pay Annualized - Amount" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                    <Field name="Scheduled Weekly Hours" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                    <Field name="FT/PT/PRN" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Phone - Primary Home" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_WString" />
+                    <Field name="Primary Work Phone" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Modality" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Group" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Division" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Region" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Facility" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Cost Center - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Cost Center - Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Home Address Str 1" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_WString" />
+                    <Field name="Home Address str 2" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Primary Home Address - City" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Primary Home Address - State" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Primary Home Address - Postal Code" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="DaVita Manager Email" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="DaVita Manager First Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="DaVita Manager Last Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Manager's Job Function" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Manager's Job Title" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="HR Partner" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                    <Field name="Location Address Str 1" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location Address Str 2" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location City" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location State" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Location Zip Code" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Company - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Company - Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="Group2" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                    <Field name="CF EVAL Worker FEIN for Hewitt Eligibility File bo WORKER" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+            </Node>
+            <Node ToolID="62">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="224" y="1050" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Teammate ID" selected="True" />
+                    <SelectField field="Teammate Type" selected="True" />
+                    <SelectField field="Time Type" selected="True" />
+                    <SelectField field="Legal Name - First Name" selected="True" />
+                    <SelectField field="Legal Name - Last Name" selected="True" />
+                    <SelectField field="Email - Work" selected="True" />
+                    <SelectField field="Scheduled Weekly Hours" selected="True" />
+                    <SelectField field="Group" selected="True" />
+                    <SelectField field="Home Address Str 1" selected="True" rename="Home Address 1" />
+                    <SelectField field="Home Address str 2" selected="True" rename="Home Address 2" />
+                    <SelectField field="Primary Home Address - City" selected="True" rename="Home City" />
+                    <SelectField field="Primary Home Address - State" selected="True" rename="Home State" />
+                    <SelectField field="Primary Home Address - Postal Code" selected="True" rename="Home Zip" />
+                    <SelectField field="DaVita Manager Email" selected="True" />
+                    <SelectField field="DaVita Manager First Name" selected="True" />
+                    <SelectField field="DaVita Manager Last Name" selected="True" />
+                    <SelectField field="Location Address Str 1" selected="True" rename="Work Address 1" />
+                    <SelectField field="Location Address Str 2" selected="True" rename="Work Address 2" />
+                    <SelectField field="Location City" selected="True" rename="Work City" />
+                    <SelectField field="Location State" selected="True" rename="Work State" />
+                    <SelectField field="Location Zip Code" selected="True" rename="Work Zip" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Selects certain fields to display based on the ask</AnnotationText>
+                  <DefaultAnnotationText>Selects certain fields to display</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="63">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="319" y="1050" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[Home State] == "CA" OR [Work State] == "California"</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Filters out individuals who are not living or working in CA
+
+[Home State] == "CA" OR [Work State] == "California"</AnnotationText>
+                  <DefaultAnnotationText>[Home State] == "CA" OR [Work State] == "California"</DefaultAnnotationText>
+                  <Left value="True" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="64">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1436" y="1134" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="ClientEmplID" selected="False" />
+                    <SelectField field="Min_Transdate" selected="True" rename="LeaveStart" />
+                    <SelectField field="Max_Transdate" selected="True" rename="LeaveEnd" />
+                    <SelectField field="Sum_SumOfTotHours" selected="True" rename="LeaveHoursTaken" />
+                    <SelectField field="Remaining 2021" selected="True" rename="2021SickHoursRemaining" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="65">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+                <Position x="1100" y="1146" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ByName_ErrorMode>Warning</ByName_ErrorMode>
+                  <ByName_OutputMode>All</ByName_OutputMode>
+                  <Mode>ByName</Mode>
+                  <SetOutputOrder value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+            </Node>
+            <Node ToolID="66">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="1172" y="1146" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="0">
+                    <Field field="Teammate ID" order="Ascending" />
+                    <Field field="ClientEmplID" order="Ascending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Teammate ID - Ascending
+ClientEmplID - Ascending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="67">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1532" y="1134" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA Supp Sick Leave 3.23.2021.xlsx|||4221</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <PreserveFormat>False</PreserveFormat>
+                    <SkipFieldNames>False</SkipFieldNames>
+                    <OutputOption>Overwrite</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>CA Supp Sick Leave 3.23.2021.xlsx
+Query=4221</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="68">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="992" y="1182" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="IF [Sum_SumOfTotHours] == Null() THEN [Double Hours] ELSE [Double Hours] - [Sum_SumOfTotHours] ENDIF" field="Remaining 2021" size="4" type="Float" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Remaining 2021 = IF [Sum_SumOfTotHours] == Null() THEN [Double Hours] ELSE [Doub...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="69">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="992" y="1122" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="80" field="Remaining 2021" size="4" type="Float" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[Remaining 2021 = 80
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="70">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+                <Position x="812" y="1134" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ByName_ErrorMode>Warning</ByName_ErrorMode>
+                  <ByName_OutputMode>All</ByName_OutputMode>
+                  <Mode>ByName</Mode>
+                  <SetOutputOrder value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+            </Node>
+            <Node ToolID="71">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="668" y="1134" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="Teammate ID" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="ClientEmplID" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Left_Double Hours" selected="True" input="Left_" type="Float" size="4" />
+                        <SelectField field="Right_Sum_SumOfTotHours" selected="True" input="Right_" type="Float" size="4" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="72">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="896" y="1134" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>DateRange</Operator>
+                    <Field>Min_Transdate</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2021-03-25 16:06:52</PeriodDate>
+                      <PeriodType>days</PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>
+                      </Operand>
+                      <StartDate>2020-12-01</StartDate>
+                      <EndDate>2020-12-31</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Min_Transdate] &gt;= "2020-12-01" AND
+[Min_Transdate] &lt;= "2020-12-31"</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="73">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="440" y="1266" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="ClientEmplID" action="GroupBy" rename="ClientEmplID" />
+                    <SummarizeField field="Transdate" action="Min" rename="Min_Transdate" />
+                    <SummarizeField field="Transdate" action="Max" rename="Max_Transdate" />
+                    <SummarizeField field="SumOfTotHours" action="Sum" rename="Sum_SumOfTotHours" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="74">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="368" y="1266" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="75">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+                <Position x="187" y="1266" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`</File>
+                  <FormatSpecificOptions>
+                    <FirstRowData>False</FirstRowData>
+                    <ImportLine>1</ImportLine>
+                  </FormatSpecificOptions>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>CA COVID PSL 2021.xlsx
+Query=`_36a_QRY_PAYCODEs$`</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ClientEmplID" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="GroupCode" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="WeekEnd" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Date" />
+                    <Field name="MPD" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Date" />
+                    <Field name="Transdate" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Date" />
+                    <Field name="SiteNo" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="SiteName" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="StateCode" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="DeptNo" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="DeptName_Long" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="eHomeLocation" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="PayCodeID" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="PayCodeName" size="255" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="V_String" />
+                    <Field name="SumOfTotHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfRegHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfDailyOTHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfDailyDTHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfWklyOTHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfWklyDTHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfNonWorkedHours" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                    <Field name="SumOfDollarAdj" source="File: \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA COVID PSL 2021.xlsx|||`_36a_QRY_PAYCODEs$`" type="Double" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+            </Node>
+            <Node ToolID="76">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="512" y="1038" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Teammate ID" selected="True" />
+                    <SelectField field="Teammate Type" selected="True" />
+                    <SelectField field="Time Type" selected="True" />
+                    <SelectField field="Legal Name - First Name" selected="True" />
+                    <SelectField field="Legal Name - Last Name" selected="True" />
+                    <SelectField field="Email - Work" selected="True" />
+                    <SelectField field="Scheduled Weekly Hours" selected="True" />
+                    <SelectField field="FTE %" selected="True" />
+                    <SelectField field="Group" selected="True" />
+                    <SelectField field="Home Address 1" selected="True" />
+                    <SelectField field="Home Address 2" selected="True" />
+                    <SelectField field="Home City" selected="True" />
+                    <SelectField field="Home State" selected="True" />
+                    <SelectField field="Home Zip" selected="True" />
+                    <SelectField field="DaVita Manager Email" selected="True" />
+                    <SelectField field="DaVita Manager First Name" selected="True" />
+                    <SelectField field="DaVita Manager Last Name" selected="True" />
+                    <SelectField field="Work Address 1" selected="True" />
+                    <SelectField field="Work Address 2" selected="True" />
+                    <SelectField field="Work City" selected="True" />
+                    <SelectField field="Work State" selected="True" />
+                    <SelectField field="Work Zip" selected="True" />
+                    <SelectField field="Double Hours" selected="True" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Ensures all fields are selected</AnnotationText>
+                  <DefaultAnnotationText>Ensures all fields are selected</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="77">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="416" y="1038" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="([Scheduled Weekly Hours] / 40) * 100" field="FTE %" size="4" type="Float" />
+                    <FormulaField expression="IF [Time Type]== &quot;Full time&quot; THEN 80 ELSE [Scheduled Weekly Hours] * 2 ENDIF" field="Double Hours" size="2" type="Int16" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Calculates the Federally defined Full Time Equivalent percentage which is Employee Scheduled Hours / Company Standard Work Week Hours
+
+FTE % = ([Scheduled Weekly Hours] / 40) * 100
+Double Hours = [Scheduled Weekly H...</AnnotationText>
+                  <DefaultAnnotationText>FTE % = ([Scheduled Weekly Hours] / 40) * 100
+Double Hours = IF [Time Type]== "F...</DefaultAnnotationText>
+                  <Left value="True" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="78">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="1304" y="1146" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>=</Operator>
+                    <Field>Home State</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2021-04-02 13:41:53</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>CA</Operand>
+                      <StartDate>2021-04-02 13:41:53</StartDate>
+                      <EndDate>2021-04-02 13:41:53</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Home State] = "CA"</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="79">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="1340" y="1290" width="100" height="40" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>9878 without filter
+8551 + 1218 = 8769</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="749" y="329" width="182" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Separate Tabs - v1</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="774" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>3</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Teammate ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Social Security Number" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Teammate Type" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Time Type" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Legal Name - First Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Legal Name - Last Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Preferred Name - First Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Preferred Name - Last Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Date of Birth" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Gender" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Original Hire Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Hire Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="On Leave = Yes" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Leave Type" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Continuous Service Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Benefits Service Date" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Exempt?" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Job Code" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Job Title" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Job Category - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Job Category - Name" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Job Family Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Email - Work" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Email - Primary Home" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Management Level" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Total Base Pay Annualized - Amount" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Scheduled Weekly Hours" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="FT/PT/PRN" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Location - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Location Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Phone - Primary Home" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_WString" />
+                <Field name="Primary Work Phone" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Modality" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Group" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Division" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Region" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Facility" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Cost Center - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Cost Center - Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Home Address Str 1" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_WString" />
+                <Field name="Home Address str 2" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Primary Home Address - City" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Primary Home Address - State" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Primary Home Address - Postal Code" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="DaVita Manager Email" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="DaVita Manager First Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="DaVita Manager Last Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Manager's Job Function" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Manager's Job Title" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="HR Partner" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Location Address Str 1" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Location Address Str 2" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Location City" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Location State" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Location Zip Code" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Company - ID" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Company - Name" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Group2" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="CF EVAL Worker FEIN for Hewitt Eligibility File bo WORKER" size="255" source="File: I:\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-03-23 04_23 MDT.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="894" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Teammate ID" selected="True" />
+                <SelectField field="Teammate Type" selected="True" />
+                <SelectField field="Time Type" selected="True" />
+                <SelectField field="Legal Name - First Name" selected="True" />
+                <SelectField field="Legal Name - Last Name" selected="True" />
+                <SelectField field="Email - Work" selected="True" />
+                <SelectField field="Scheduled Weekly Hours" selected="True" />
+                <SelectField field="Group" selected="True" />
+                <SelectField field="Home Address Str 1" selected="True" rename="Home Address 1" />
+                <SelectField field="Home Address str 2" selected="True" rename="Home Address 2" />
+                <SelectField field="Primary Home Address - City" selected="True" rename="Home City" />
+                <SelectField field="Primary Home Address - State" selected="True" rename="Home State" />
+                <SelectField field="Primary Home Address - Postal Code" selected="True" rename="Home Zip" />
+                <SelectField field="DaVita Manager Email" selected="True" />
+                <SelectField field="DaVita Manager First Name" selected="True" />
+                <SelectField field="DaVita Manager Last Name" selected="True" />
+                <SelectField field="Location Address Str 1" selected="True" rename="Work Address 1" />
+                <SelectField field="Location Address Str 2" selected="True" rename="Work Address 2" />
+                <SelectField field="Location City" selected="True" rename="Work City" />
+                <SelectField field="Location State" selected="True" rename="Work State" />
+                <SelectField field="Location Zip Code" selected="True" rename="Work Zip" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1350" y="378" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA Supp Sick Leave 3.23.2021.xlsx|||Full Time</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CA Supp Sick Leave 3.23.2021.xlsx
+Query=Full Time</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1002" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Time Type</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-03-23 09:54:05</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>Full time</Operand>
+                  <StartDate>2021-03-23 09:54:05</StartDate>
+                  <EndDate>2021-03-23 09:54:05</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Time Type] = "Full time"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1542" y="690" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\CA Supp Sick Leave 3.23.2021.xlsx|||Part Time</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CA Supp Sick Leave 3.23.2021.xlsx
+Query=Part Time</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+            <Position x="1230" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+            <Position x="1398" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1206" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Scheduled Weekly Hours] / 40) * 100" field="FTE %" size="4" type="Float" />
+                <FormulaField expression="[Scheduled Weekly Hours] * 2" field="Double Hours" size="2" type="Int16" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>FTE % = ([Scheduled Weekly Hours] / 40) * 100
+Double Hours = [Scheduled Weekly H...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1302" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Teammate ID" selected="True" />
+                <SelectField field="Teammate Type" selected="True" />
+                <SelectField field="Time Type" selected="True" />
+                <SelectField field="Legal Name - First Name" selected="True" />
+                <SelectField field="Legal Name - Last Name" selected="True" />
+                <SelectField field="Email - Work" selected="True" />
+                <SelectField field="Scheduled Weekly Hours" selected="True" />
+                <SelectField field="FTE %" selected="True" />
+                <SelectField field="Group" selected="True" />
+                <SelectField field="Home Address 1" selected="True" />
+                <SelectField field="Home Address 2" selected="True" />
+                <SelectField field="Home City" selected="True" />
+                <SelectField field="Home State" selected="True" />
+                <SelectField field="Home Zip" selected="True" />
+                <SelectField field="DaVita Manager Email" selected="True" />
+                <SelectField field="DaVita Manager First Name" selected="True" />
+                <SelectField field="DaVita Manager Last Name" selected="True" />
+                <SelectField field="Work Address 1" selected="True" />
+                <SelectField field="Work Address 2" selected="True" />
+                <SelectField field="Work City" selected="True" />
+                <SelectField field="Work State" selected="True" />
+                <SelectField field="Work Zip" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1122" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Home State] == "CA" OR [Work State] == "CA"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Home State] == "CA" OR [Work State] == "CA"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1062" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Home State] == "CA" OR [Work State] == "California"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Home State] == "CA" OR [Work State] == "California"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="104">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="473" y="1829" width="1705" height="1188" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>SuppSickLeaveCode</Caption>
+          <Style TextColor="#314c4a" FillColor="#9dffce" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="942" y="2682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Teammate ID" selected="True" />
+                <SelectField field="Time Type" selected="True" />
+                <SelectField field="Scheduled Weekly Hours" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Selects only certain fields</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="953" y="2766" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="95">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1217" y="2694" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Teammate ID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Teammate ID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Teammate ID" selected="True" rename="Right_Teammate ID" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="98">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1362" y="2694" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>!=</Operator>
+                <Field>Time Type</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-04-09 15:36:33</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2021-04-09 15:36:33</StartDate>
+                  <EndDate>2021-04-09 15:36:33</EndDate>
+                  <Operand>Full time</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Time Type] != "Full time"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="100">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1626" y="2682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Scheduled Weekly Hours] * 2" field="DoubleHours" size="1073741823" type="V_WString" />
+                <FormulaField expression="Null()" field="AreThey?" size="1073741823" type="V_WString" />
+                <FormulaField expression="Null()" field="HoursWinL6mo" size="1073741823" type="V_WString" />
+                <FormulaField expression="Null()" field="DivBy182" size="1073741823" type="V_WString" />
+                <FormulaField expression="Null()" field="MulBy14" size="1073741823" type="V_WString" />
+                <FormulaField expression="Null()" field="Eligible Hours" size="1073741823" type="V_WString" />
+                <FormulaField expression="Null()" field="DiffBetLoAndEligb" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DoubleHours = [Scheduled Weekly Hours] * 2
+AreThey? = Null()
+HoursWinL6mo = Null...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1722" y="2682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Teammate ID" selected="True" />
+                <SelectField field="Time Type" selected="True" />
+                <SelectField field="AreThey?" selected="True" />
+                <SelectField field="Scheduled Weekly Hours" selected="True" />
+                <SelectField field="Sub Period Start Date" selected="False" />
+                <SelectField field="Period End Date" selected="True" />
+                <SelectField field="Worker" selected="False" />
+                <SelectField field="Right_Teammate ID" selected="False" />
+                <SelectField field="Pay Component Code" selected="False" />
+                <SelectField field="Pay Component Name" selected="False" />
+                <SelectField field="Sub Period" selected="False" />
+                <SelectField field="Sub Period End Date" selected="False" />
+                <SelectField field="Retro Period" selected="False" />
+                <SelectField field="Hours" selected="True" />
+                <SelectField field="Hours (unprorated) Related Calculation" selected="True" />
+                <SelectField field="Result Line Amount" selected="True" />
+                <SelectField field="DoubleHours" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="102">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="498" y="2262" width="564" height="240" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[CA leave - what they are supposed to get = 2x hours worked for avg of hours worked over the previous 6 months before they took the time - toni to provide a report of people who got 
+
+exclude anyone who is full time
+
+part time or perdiem we calculate the average worked (double actual hours) and compare it to what we loaded
+
+we will never take anyone's hours away
+
+only people who are short
+
+We only want "productive" hours - mostly just reg hours? PTO is non-productive hours but is more generous to the teammate
+
+if they have a 4csf AND are part time/per diem = this is when we kick off the audit
+
+if it goes above, we give them the time they missed
+
+]]></Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1398" y="2442" width="100" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Need calculation for 6+ prior to end date selected</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1566" y="2862" width="158" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Container 105</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="99">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+                <Position x="1590" y="2910" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <NumRows value="2" />
+                  <Fields>
+                    <Field name="TMID" />
+                    <Field name="ActualWorked" />
+                  </Fields>
+                  <Data>
+                    <r>
+                      <c>307351</c>
+                      <c>1</c>
+                    </r>
+                    <r>
+                      <c>402007</c>
+                      <c />
+                    </r>
+                  </Data>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1074" y="2322" width="300" height="60" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Monitor each report for number of PT and PD teammates
+If volume becomes unmanageable or too large to do manually, will need to update the workflow ]]></Text>
+              <Font name="Arial" size="8.25" style="1" />
+              <TextColor name="Black" />
+              <FillColor r="255" g="255" b="202" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="498" y="1878" width="816" height="276" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Notes:
+
+Average hours = productive time (remove all non productive time codes)
+
+We need to calculate average hours for any of the part-time or per diem teammates on the report since the Paid Sick Leave is retro to 01/01.
+(pay period date or end date does not matter)
+
+
+
+The average hours needs to start on the first date the teammate took leave. If there is not a way to do then I would recommend using the date closest to the first date of absence. 
+(Example: Teammate took leave on 4.1, we would calculate the average hours from 10.1 - 4.1)
+
+
+
+The law says that we have to give TM’s the average so if the average is not a full number, if you are able to average numbers outside of full numbers, we should do that and used the exact average. If that is not possible, then I would recommend we round up. So for the two examples, the average hours would be 13 and then we would owe her 2 hours. But I recommend only doing that if you are not able to do averages outside of full numbers. We can default to being more generous.</Text>
+              <Font name="Arial" size="8.25" style="1" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="126">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+            <Position x="522" y="2682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Directory>\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt</Directory>
+              <FileSpec>*.*</FileSpec>
+              <IncludeSubDirs value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Gets most recent file saved in the Ben Actives directory
+
+dir I:\Benefits\Reporting\Ben Actives Rpt\*.*</AnnotationText>
+              <DefaultAnnotationText>dir \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt\*.*</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+        </Node>
+        <Node ToolID="127">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="630" y="2682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="CreationTime" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Chooses file based on the most recent creation date within the directory
+
+CreationTime - Descending</AnnotationText>
+              <DefaultAnnotationText>CreationTime - Descending</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="128">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="726" y="2682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Chooses only the information from the first file - if you were to select a different threshold, you would get information from multiple files
+
+First 1</AnnotationText>
+              <DefaultAnnotationText>First 1</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="129">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicInput.DynamicInput">
+            <Position x="834" y="2682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <InputConfiguration>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Ben Actives Rpt\WDHR_Actives _Benefits 2021-09-01 01_19 MDT.xlsx|||`Sheet1$`</File>
+                  <FormatSpecificOptions>
+                    <FirstRowData>False</FirstRowData>
+                    <ImportLine>3</ImportLine>
+                  </FormatSpecificOptions>
+                </Configuration>
+              </InputConfiguration>
+              <Mode>ReadList</Mode>
+              <ReadList_Field>FullPath</ReadList_Field>
+              <ReadList_Type>Path</ReadList_Type>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Allows you to designate the file you want as a template</AnnotationText>
+              <DefaultAnnotationText>Allows you to designate the file you want as a template</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicInput" />
+        </Node>
+        <Node ToolID="130">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1818" y="2742" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Teammate ID" action="GroupBy" rename="Teammate ID" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="131">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1938" y="2682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="97">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2094" y="2682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\etansley\AppData\Local\Temp\Engine_18340_0625db17590b434899ac9b132c07a131_\Engine_1464_da689e6990834732a5fa1591a164ec65_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="135">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+            <Position x="509" y="2766" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Directory>\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\Supp Sick Leave Bal Rept</Directory>
+              <FileSpec>*.*</FileSpec>
+              <IncludeSubDirs value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>dir \\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\Supp Sick Leave Bal Rept\*.*</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+        </Node>
+        <Node ToolID="136">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="618" y="2766" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="CreationTime" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CreationTime - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="137">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="713" y="2766" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="138">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicInput.DynamicInput">
+            <Position x="822" y="2766" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <InputConfiguration>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\davita.corp\files\CBO\DEN\UDrive\Groups\CORPHR\Benefits\Reporting\Data Requests\CA Supp Sick Leave 3.23.2021\Supp Sick Leave Bal Rept\4CSF PPE 07.24.2021.xlsx|||`Sheet1$`</File>
+                  <FormatSpecificOptions>
+                    <FirstRowData>False</FirstRowData>
+                    <ImportLine>1</ImportLine>
+                  </FormatSpecificOptions>
+                </Configuration>
+              </InputConfiguration>
+              <Mode>ReadList</Mode>
+              <ReadList_Field>FullPath</ReadList_Field>
+              <ReadList_Type>Path</ReadList_Type>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4CSF PPE 07.24.2021.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="116" Connection="Output" />
+      <Destination ToolID="123" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="123" Connection="True" />
+      <Destination ToolID="125" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="125" Connection="True" />
+      <Destination ToolID="133" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="133" Connection="Output" />
+      <Destination ToolID="134" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="True" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="True" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="True" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="113" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="113" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="34" Connection="Left" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="34" Connection="Join" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="34" Connection="Right" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="False" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="34" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="34" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="True" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="True" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="71" Connection="Left" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="71" Connection="Join" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="71" Connection="Right" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="True" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="False" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="71" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="71" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="True" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="False" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output2" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="95" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="95" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="95" Connection="Join" />
+      <Destination ToolID="98" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="True" />
+      <Destination ToolID="100" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="130" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="131" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="130" Connection="Output" />
+      <Destination ToolID="131" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="126" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="128" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Output" />
+      <Destination ToolID="129" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="129" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="131" Connection="Output" />
+      <Destination ToolID="97" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="135" Connection="Output" />
+      <Destination ToolID="136" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="136" Connection="Output" />
+      <Destination ToolID="137" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="137" Connection="Output" />
+      <Destination ToolID="138" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="138" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CA Supp Sick Leave 3.23.2021</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="4f90a648-7f71-453f-bc07-307beff8dc65" />
+      <Telemetry>
+        <PreviousWorkflowId value="1ca28ee8-8ace-4c3d-9115-5741992990a2" />
+        <OriginWorkflowId value="1ca28ee8-8ace-4c3d-9115-5741992990a2" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
